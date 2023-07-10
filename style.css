@@ -22,6 +22,7 @@
     height: 100vh;
     color: var(--colorLight2);
     background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);
+   overflow-x:hidden;
 }
 
 h1{
@@ -37,6 +38,7 @@ h1{
     justify-content: space-between;
     margin: 0 auto;
     margin-top:4rem ;
+   overflow-x:hidden;
 }
 
 .tab{
@@ -277,5 +279,22 @@ h1{
 
     .parameter {
         width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .tab-container {
+        margin-top: 2rem;
+        width: 80%;
+        overflow-x: hidden;
+    }
+
+    .tab {
+        font-size: 0.75rem;
     }
 }
