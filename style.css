@@ -55,6 +55,7 @@ h1{
 
 .weather-container{
    margin-block:4rem;
+   overflow-x:hidden;
   
 }
 
@@ -293,7 +294,12 @@ h1{
         width: 80%;
         overflow-x: hidden;
     }
-
+   .weather-container{
+        overflow-x: hidden;
+    }
+.wrapper{
+        overflow-x: hidden;
+    }
     .tab {
         font-size: 0.75rem;
     }
