@@ -43,7 +43,12 @@
                 <img src="assets/loading.gif" width="150" height="150" alt="">
                 <p>Loading</p>
              </div>
-
+                <!--handle api fetch error-->
+           <div class="sub-container api-error-container">
+            <img src="assets/not-found.png" data-notFoundImg />
+            <p data-apiErrorText></p>
+            <button class="btnerr" data-apiErrorBtn>Retry</button>
+          </div>
              <!--show Weather info-->
              <div  class="sub-container user-info-container">
                 <!--cityname and flag-->
@@ -85,12 +90,7 @@
             
 
          </div>
-           <!--handle api fetch error-->
-           <div class="sub-container api-error-container">
-            <img src="assets/not-found.png" data-notFoundImg />
-            <p data-apiErrorText></p>
-            <button class="btnerr" data-apiErrorBtn>Retry</button>
-          </div>
+         
      </div>
     <script src="script.js"></script>
 </body>
