@@ -133,7 +133,7 @@ function renderWeatherInfo(weatherInfo){
     
     weatherIcon.src=`http://openweathermap.org/img/w/${weatherInfo?.weather?.[0]?.icon}.png`;
     
-temp.innerText = `${(weatherInfo?.main?.temp - 273.15).toFixed(2)} °C`;
+temp.innerText = `${weatherInfo?.main?.temp.toFixed(2)} °C`;
 
 
     windspeed.innerText=`${weatherInfo?.wind?.speed}m/s`;
